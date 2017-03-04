@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="index.css">
+    <style type="text/css">
+        .flash{width:100%;position:relative; height: 11.88rem}
+        .flash li{position:absolute;left:0;top:0;width:100%;}
+        .clear{
+            clear: both;
+        }
+    </style>
+    <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<script type="text/javascript">
+    /*响应式布局 start*/
+    function setRootFontSize() {
+        var width = document.documentElement.clientWidth, fontSize;
+        if (width > 750) { width = 750 }
+        fontSize = (width / 10);
+        document.getElementsByTagName('html')[0].style['font-size'] = fontSize + 'px';
+        document.getElementsByTagName('body')[0].style['font-size'] = 12 + 'px';
+    }
+    setRootFontSize();
+    window.addEventListener('resize', function() {
+        setRootFontSize();
+    }, false);
+    /*响应式布局 end*/
+</script>
+<body>
+    <header>
+        <div class="menu"><img src="images/menu.png"></div>
+        <img class="logo" src="images/logo.png">
+    </header>
+    <div class="flash clear">
+        <ul>
+            <li><a href="#"><img width="100%" height="auto" alt="纹身" src="images/back_mess_01.jpg" /></a></li>
+            <li><a href="#"><img width="100%" height="auto" alt="纹身" src="images/back_mess_02.jpg" /></a></li>
+            <li><a href="#"><img width="100%" height="auto" alt="纹身" src="images/back_mess_03.jpg" /></a></li>
+            <li><a href="#"><img width="100%" height="auto" alt="纹身" src="images/back_mess_04.jpg" /></a></li>
+            <li><a href="#"><img width="100%" height="auto" alt="纹身" src="images/back_mess_04.jpg" /></a></li>
+            <li><a href="#"><img width="100%" height="auto" alt="纹身" src="images/back_mess_05.jpg" /></a></li>
+            <div class="clear"> </div>
+        </ul>
+        <div class="contact-box">
+            <div class="text">与众不同 # 你的刺青属于谁?</div>
+            <div class="button"><img src="images/contact_me.png"></div>
+            <div class="logo"><img src="images/small-logo.png"></div>
+            <div class="layer">
+                <div><img src="images/code1J@OR19MMQFIAW7NGQ.png"/> </div>
+                <!--<div>扫一扫：<img src="images/qrCode.jpg"></div>
+                <div>联系电话：18280000342 </div>-->
+            </div>
+        </div>
+    </div>
+    <div class="more"><span>查看更多刺青风格作品>></span></div>
+    <div class="footer">
+        <div class="video_box">
+            <div class="v_button"><img src="images/button_on.png"></div>
+        </div>
+        <div><span class="click_see">点击观看视频↑</span></div>
+    </div>
+    <div>
+        <img src="images/footerIMIG.png" style="width: 100%"/>
+    </div>
+</div>
+
+</body>
+</html>
