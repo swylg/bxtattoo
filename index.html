@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>unlike-tattoo</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="description" content="刺青艺术，属于你的人皮契约">
+    <meta name="keywords" content="不像刺青,bxtattoo">
     <link rel="stylesheet" href="index.css">
     <style type="text/css">
         .flash{width:100%;position:relative; height: 11.88rem}
@@ -12,8 +14,10 @@
             clear: both;
         }
     </style>
-    <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="slider.js"></script>
     <script type="text/javascript" src="index.js"></script>
+
 </head>
 <script type="text/javascript">
     /*响应式布局 start*/
@@ -36,17 +40,29 @@
         <img class="logo" src="images/logo.png">
     </header>
     <div class="flash clear">
-        <ul>
-            <li><a href="#"><img width="100%" height="auto" alt="纹身" src="images/back_mess_01.jpg" /></a></li>
-            <li><a href="#"><img width="100%" height="auto" alt="纹身" src="images/back_mess_02.jpg" /></a></li>
-            <li><a href="#"><img width="100%" height="auto" alt="纹身" src="images/back_mess_03.jpg" /></a></li>
-            <li><a href="#"><img width="100%" height="auto" alt="纹身" src="images/back_mess_04.jpg" /></a></li>
-            <li><a href="#"><img width="100%" height="auto" alt="纹身" src="images/back_mess_04.jpg" /></a></li>
-            <li><a href="#"><img width="100%" height="auto" alt="纹身" src="images/back_mess_05.jpg" /></a></li>
-            <div class="clear"> </div>
-        </ul>
+        <div class="ck-slide">
+            <ul class="ck-slide-wrapper">
+                <li>
+                    <a href="http://www.dowebok.com/"><img src="images/back_mess_01.jpg" alt=""></a>
+                </li>
+                <li style="display:none">
+                    <a href="http://www.dowebok.com/144.html"><img src="images/back_mess_02.jpg" alt=""></a>
+                </li>
+                <li style="display:none">
+                    <a href="javascript:"><img src="images/back_mess_03.jpg" alt=""></a>
+                </li>
+                <li style="display:none">
+                    <a href="javascript:"><img src="images/back_mess_04.jpg" alt=""></a>
+                </li>
+                <li style="display:none">
+                    <a href="javascript:"><img src="images/back_mess_05.jpg" alt=""></a>
+                </li>
+            </ul>
+            <a href="javascript:" class="ctrl-slide ck-prev">上一张</a> <a href="javascript:" class="ctrl-slide ck-next">下一张</a>
+
+        </div>
         <div class="contact-box">
-            <div class="text">与众不同 # 你的刺青属于谁?</div>
+            <div class="text">你的刺青属于谁改成，与众不同 # 属于你的人皮契约</div>
             <div class="button"><img src="images/contact_me.png"></div>
             <div class="logo"><img src="images/small-logo.png"></div>
             <div class="layer">
@@ -56,17 +72,32 @@
             </div>
         </div>
     </div>
-    <div class="more"><span>查看更多刺青风格作品>></span></div>
+    <div class="more"><a class="dropdown" href="javascipt:;"><img  src="images/dropdown.png"/></a><span>不像刺青作品>></span></div>
     <div class="footer">
         <div class="video_box">
             <div class="v_button"><img src="images/button_on.png"></div>
         </div>
         <div><span class="click_see">点击观看视频↑</span></div>
     </div>
+
+
+    <div class="trainSestem">
+        <div class="content">
+            <div class="video-link">
+                <a href="javascript:;"><i class="triangle-right"></i>特色教学</a><a href="javascript:;"><i class="triangle-right"></i>技能教学+实际操作</a><a href="javascript:;"><i class="triangle-right"></i>90天专业标准化课程</a>
+            </div>
+            <div class="text">I DON'T WASTE A SECOND TIME I</div>
+        </div>
+    </div>
+    <a id="footerup" href="javascript:;" class="wap-footer-img"><img src="images/wapdsjkdghskldfg.png"></a>
+
+
     <div>
         <img src="images/footerIMIG.png" style="width: 100%"/>
     </div>
-</div>
+
+
+
 
 </body>
 </html>
