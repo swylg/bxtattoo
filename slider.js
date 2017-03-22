@@ -113,7 +113,7 @@
         $(this).find('.ck-slidebox li').eq(show).addClass('current');
     }
     $.fn.ckSlide.opts = {
-        autoPlay: false,
+        autoPlay: true,
         dir: null,
         isAnimate: false
     };
