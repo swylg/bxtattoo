@@ -73,7 +73,7 @@
                             index++;
                         }
                         change.call(that, index, old);
-                    }, 2000);
+                    }, 1000);
                 }
             }
             // ÐÞÕýbox

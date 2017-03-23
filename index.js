@@ -2,6 +2,7 @@
 
 $(document).ready(function(){
     $('.ck-slide').ckSlide();
+
     $(".button").click(function(){
         $('.layer').toggle(400);
 
